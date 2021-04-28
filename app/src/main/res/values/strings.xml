@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">The Movie</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_login">Login</string>
+    <string name="invalid_username">Invalid Email</string>
+    <string name="invalid_password">Password must be 6 to 12 characters</string>
+</resources>

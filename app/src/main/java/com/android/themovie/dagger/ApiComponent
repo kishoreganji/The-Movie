@@ -1,0 +1,14 @@
+package com.android.themovie.dagger;
+
+import android.app.Activity;
+
+import javax.inject.Singleton;
+
+import dagger.Component;
+
+@Singleton
+@Component(modules = {AppModule.class, ApiModule.class})
+public interface ApiComponent {
+    void inject(Activity activity);
+
+}
